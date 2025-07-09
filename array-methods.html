@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+
+<body>
+    <script>
+        let array = [101, "102", "rahul", null, undefined, 7009]
+
+        // * push ()  
+        array.push("rahuu");
+        document.write(array);
+        document.write("<br>");
+
+        // * sort()  
+        array.sort();
+        document.write(array);
+        document.write("<br>");
+
+        // * reverse()  
+        array.reverse();
+        document.write(array);
+        document.write("<br>");
+
+        // * pop()  
+        array.pop();
+        document.write(array);
+        document.write("<br>");
+
+        // * unshift()  
+        array.unshift("ttyl");
+        document.write(array);
+        document.write("<br>");
+
+        // * shift()  
+        array.shift("ttyl");
+        document.write(array);
+        document.write("<br>");
+
+        //  concate()
+        let aar = ["neelam", "little"];
+        document.write(array.concat(aar));
+        document.write(array);
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<br>");
+
+        //join()
+        let arr = ["neelam1", "little1", 101, "102"];
+        document.write(array.join(arr));
+        document.write("<br>");
+        document.write("<br>");
+        document.write(array);
+        document.write("<br>");
+        document.write("<br>");
+
+        //  slice
+        let ar = ["sanjay", "rehman", "aman", "karan"];
+        document.write(ar);
+        document.write("<br>");
+        let ary = ar.slice(1, 3);
+        document.write(ary);
+        document.write("<br>");
+        let ary1 = ar.slice(2, 3);
+        document.write(ary1);
+        document.write("<br>");
+
+
+        // splice
+        var a = ["AMAN", "SANJAY", "REKHA", "MAHESH", "SALMAN"]
+        //RAHUL SANJAy WE HV TO ADD
+        a.splice(2, 2, "neha", "karan");
+        document.write("<br>");
+
+        // isarray
+        let arryy = ["AMAN", "SANJAY", "REKHA", "MAHESH", "SALMAN"];
+        let c = Array.isArray(arryy);
+        document.write(arryy);
+        document.write("<br>");
+        document.write(c);
+        document.write("<br>");
+
+
+        // indexOf;
+        let ai = ["aman", "dhurv", "aman", "aman", " gopal", "akshay", "aman", " anu"]
+        document.write(ai);
+        // let indexosfb = ai.indexOf("aman",3);
+        let indexosfb = ai.indexOf("aman", 2);
+        document.write("<br>");
+        document.write(indexosfb);
+
+        // lastIndexOf()
+        let ci = ["aman", "dhurv", "aman", "aman", " gopal", "akshay", "aman", " anu"];
+        document.write(ci);
+        document.write("<br>");
+        let zz = ci.lastIndexOf("aman", 2);
+        document.write(zz);
+        document.write("<br>");
+
+        //includes()
+        let incld = ["aman", "dhurv", "akshay", "aman", " anu"];
+        document.write(incld);
+        document.write("<br>");
+        let incld1 = incld.includes("dhurv");
+        document.write(incld1);
+
+        //some()
+        //   let ages = [10,20,30,40];
+        //   document.write(ages +"<br", "<br");
+        //   let bb = somevalue.some(midvalue);
+        //   document.write(midvalue ,"<br", "<br");  
+
+        //   function midvachechadultlue(age){
+        //     return age>=20;
+        // }
+
+
+        //every()
+        //   let ages1 = [10,20,30,40];
+        //   document.write(ages1 +"<br", "<br");
+        //   let bb1 = somevalue.every(midvalue1);
+        //   document.write(midvalue1 ,"<br", "<br");  
+
+        //   function midvachechadultlue(ages1){
+        //     return age>=20;
+        //   }
+
+        //find()
+        let newno = [10, 30, 50, 60, 70];
+        document.write(newno + "<br", "<br");
+        let midv = 50;
+        let mid = newno.find(nnumber);
+
+        function nnumber(newnos) {
+            return newnos >= 18;
+        }
+
+        //   filter()
+        let fltrs = [10, 30, 50, 60, 70];
+        document.write(fltrs + "<br", "<br");
+
+        let comparefilter = fltrs.filter(filtervalue);
+        document.write(comparefilter + "<br>" + "<br>");
+
+        function filtervalue(fltr) {
+            return fltr >= 20;
+        }
+
+        //toString()
+        var t = ["rahul", "priya", "sonia", "rajib"];
+        document.write(t + "<br>" + "<br>");
+        var s = t.toString();
+        document.write(s + "<br>" + "<br>");
+
+        //valueOf()
+        //no uses of this function
+
+        //fill()
+        let f = ["aman", "neha", "nikita"];
+        document.write(f + "<br>" + "<br>");
+        document.write(f.valueOf() + "<br>" + "<br>");
+        f.fill("ram");
+        document.write(f);
+
+
+    </script>
+</body>
+
+</html>

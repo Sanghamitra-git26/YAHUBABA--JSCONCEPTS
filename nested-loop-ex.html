@@ -1,0 +1,48 @@
+x<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NESTED LOOP EXAMPLE</title>
+</head>
+<body>
+    <script>
+        //triangle numbers 1,1 2,1 2 3, 1 2 3 4
+        for(let i=1;i<=5;i++){
+            for(let b =1 ; b<=i ;b++)
+            document.write(b);
+            document.write("<br>");
+        }
+        document.write("<br>");
+        document.write("<br>");
+       //triangle numbers 1,2 2,3 3 3, 4 4 4 4
+       for(let a=1;a<=5;a++){
+        for(let c=1;c<=a;c++){
+            document.write(a);
+        }       
+        document.write("<br>");
+       }
+       document.write("<br>");
+        document.write("<br>");
+
+    
+       //triangle numbers 5 5 5 5 5 ,4 4 4 4 ,3 3 3,2 2, 1
+       for (let x = 5 ; x>=1;x--){
+        for (let y = 1; y<=x ;y++)
+        document.write(x);
+        document.write("<br>");
+       }
+       document.write("<br>");
+       document.write("<br>");
+
+       //triangle numbers 5 4 3 2 1 , 4 3 2 1 , 3 2 1 , 2 1 , 1
+        for (let s = 5 ; s>=1;s--){
+           for(let t = s ;t>=1 ;t--){
+            document.write(t);
+           }
+           document.write("<br>");
+         }     
+    </script>
+</body>
+</html>

@@ -1,0 +1,325 @@
+JS is web based scripting language
+
+PURPOSE OF USING JS
+-------------------
+It is an event based programming language
+-> *Key Press 	        *Key Up
+-> *Mouse Hover 	*Mouse Out 		*Drag Drop
+-> *Click	 	*Double Click 		*Right Click 
+-> *Load 	        *Unload 		*Resize  	*Scroll
+
+BENEFITS OF USING JS
+--------------------
+->Web Development
+->Desktop Development
+->Mobile App Development  
+
+USES OF JS IN WEB DEVELOPMENT
+------------------------------
+   *Drop Down Menu          *Video Players
+   *Animated Sliders        *Animated Gallery
+   *Maps	            *Zoom Effect
+   *Chart Graphs	    *Form Validation
+   *Pop-Up Window	    *Accordions
+   *Audio Players           *Calenders
+
+SOFTWARE REQUIRED
+-----------------
+   *HTMLEditor (Notepad,Notepad++,VS Code,Sublime,Atom)
+   *Web Browser(Google Chrome,IE,Safari,Mozilla Firefox)
+
+2 WAYS TO IMPLEMENT JS
+-----------------------
+   *Inpage Javascript(Inside head tag , Inside Body tag) 
+   *External Javascript
+
+JAVASCRIPT COMMNETS
+-------------------
+    1.Single Line Comment(//)
+    2.Multi Line Comment (/ *   */)
+
+JAVASCRIPT VARIBALES
+--------------------
+There are 3 types of Variables
+      1.Var(We can't declaire the same variable twice)
+	 	 Ex:-  var x = "Yahoo BABA";
+             	       x is variable name and "Yahoo BABA" is variable value
+      2.Let(Using let we can reassign the value)
+		 Ex:-let s =39;
+
+      3.Const(The value of const is fixed , we can't rename it and cant edit it)
+                 Ex:- const first ="hello"
+
+
+RULES TO WRITE VARIABLE NAMES
+-----------------------------
+        *firstname
+	*first_name
+	*first-name
+	*firstName
+	*firstname99
+
+DATA TYPES
+-----------
+        var x ="Hello World"; ----------------------------->String
+	var x = 45; --------------------------------------->Number
+	var x = True/False; ------------------------------->Boolean
+	var x = ["HTML","CSS","JS"];----------------------->Array
+	var x = {first:"HTML",middle:"CSS",last:"JS'};----->Object
+	var x =null;--------------------------------------->Null
+	var x;--------------------------------------------->Undefined
+
+ARITHMATIC OPERATOR
+-------------------
+		+  ------------> Addition
+		-  ------------> Substraction
+		*  ------------> Multiplication
+		** ------------> Exponentiation
+		/  ------------> Division
+		%  ------------> Modulous(Remainder)
+		++ ------------> Increment
+		-- ----------->  Decrement
+
+ASSIGNMENT OPERATORS
+--------------------
+		==  --------->     X=Y       ------> X = Y
+		+=   --------->    X+=Y      ------> X = X+Y
+		==  --------->     X-=Y      ------> X = X-Y
+		*=   --------->    X*=Y      ------> X=X*Y
+		/=   --------->    X/=Y      ------> X=X/Y
+		%=   --------->    X%=Y      ------> X=X%Y
+		**=  --------->    X**Y      ------> X**Y
+		
+COMAPARISION OPERATORS
+----------------------
+
+                 ==     -----------> Equal to
+                 ===    -----------> Equal value or Equal type
+		 !=     -----------> Not equal
+		 !==    -----------> Not equal value or Not equal type
+                  >     -----------> Greater than
+		  <     -----------> Less than
+ 		  > =   -----------> Greater than or equal to
+		  < =   -----------> Less than or equal to
+
+If STATEMENT
+------------
+ If -------> Condition -----------> True  ----------------> Statement 
+                  -
+		  -
+		  -
+		  -----------------> False ----------------> OUT
+
+LOGICAL OPERATORS
+-----------------  		  
+  		OPERATOR      NAME
+                   &&         Logical AND
+                   !!         Logical OR
+                    !         Logical NOT
+  
+If Statement with Logical AND
+-----------------------------
+                  If(Condition 1 && Condition 2)
+			{
+				}
+
+If Statement with Logical OR
+-----------------------------
+                  If(Condition 1 !! Condition 2)
+			{
+				}
+
+If Statement with Logical NOT
+-------------------------------
+                  If!(Condition)
+			{
+				}
+
+WHAT IS If Else Statement
+---------------------------
+
+   If -------> Condition -----------> True  -------------->Statement 1
+                  -
+		  -
+		  -
+		  ------------------> False --------------->Statement 2
+
+If Else Statement in JavaScript
+-------------------------------
+
+               If(Condition True)
+		  {
+		    Statement for ture
+		      }
+                Else
+		   {
+		     Statement for false
+		       }
+
+If Else If Statement in JavaScript
+-------------------------------
+		 If(Condition1)
+		  {
+		    Statement 1
+		      }
+                else if
+		   {
+		     Statement 2
+		       }
+		else 
+		   {
+		     Statement 3
+		       }
+
+
+WHAT IS TERNARY OPERATOR
+------------------------
+             Condition -----------> True  -------------->Statement 1
+                  -
+		  -
+		  -
+		  ------------------> False --------------->Statement 2
+
+CONDITIONAL TERNARY OPERATOR
+-----------------------------
+(Condition) ?True Statement : False Statement
+
+SWITCH STATEMENT
+-----------------
+		switch(expression)
+ 		   {
+                     case condition1 :statement(s)
+                       break;
+		     case condition2 :statement(s)
+                       break;
+		     case condition3 :statement(s)
+                       break;
+                     default : statement(s)
+			}
+
+FUNCTIONS IN JAVASCRIPT
+-----------------------
+   function functionName() 
+	{
+         statements;
+         }
+functionName() ;
+
+
+FUNCTION WITH PARAMETERS IN JS
+------------------------------
+ function functionName(parameter1 ,parameter2)
+    {
+            statements;
+        }
+
+functionName(arguemnt1, argument2);
+
+FUNCTION WITH RETURN VALUE IN JS
+--------------------------------
+function functionName (parameter1, parameter2){
+statements ;
+return value
+}
+var a = functionName(argument1 ,argument2);
+
+JAVASCRIPT BASIC EVENTS
+-----------------------
+ -> Click(onclick)               -> Mouse Hover(onmouseenter) -> Key Up(onkeyup)	-> Load(onload)
+ -> Double Click (ondblclick)    -> Mouse Out(onmouseout)     -> Key Press(onkeypress)	-> Unload(onunload)
+ -> Right Click(oncontextclick)  -> Mouse Down(onmousedown)		                -> Resize(onresise)
+		                 -> Mouse Up(onmlouseup)
+				 -> Scroll(onscroll)
+LOOP
+----
+Loop is divied into 3 parts  
+                    *Initialisation 
+		    * Condition 
+		    * Increment / Decrement
+
+TYPES OF LOOPS IN JAVASCRIPT
+-----------------------------
+		     1. while Loop
+		     2. do/while Loop  
+		     3. for Loop 
+		     4. for/in Loop (object)
+		     5. forEach Loop (Array)
+for loop
+----------
+It needs 3 statements
+		*initialization 
+		*condition 
+		*increment/decrement
+ SYNTAX :- for (initialization ; condition ; increment / decrement);
+			{
+				}
+nested loop
+-----------
+Loop inside loop we called it as Nested Loop
+SYNTAX :- for (initialization ; condition ; increment / decrement);
+                {
+			for (initialization ; condition ; increment / decrement);
+				{
+					}
+		}
+
+DATATYPES in JS :------String 
+		      ->Number 
+		      ->Boolean 
+                      ->Array
+		      ->Object 
+		      ->Null 
+		      ->Undefined
+ARRAYS IN JS
+------------                      
+EX  -> let array = [10,'30',"Rahul" ,null]
+INDEX VALUE ------>  0   1     2       3
+
+ANOTHER WAY TO CREATE ARRAY
+----------------------------
+      var arr = new Array();
+
+MULTIDIMENSIONAL ARRAYS IN JS
+----------------------------
+In a single Array ,we can create multiple array ,that we called as multi-demensional array
+
+JAVASCRIPT ARRAY METHODS
+------------------------
+   * sort()        * slice()           * find()     	  * reverse ()       * splice()       * findIndex()  
+   * pop()         * isArray           * includes()    	  * push ()          * indexOf()      * findIndex()                      
+   * some()        * every()           * lastIndexOf() 	  * shift()          * forEach()      * unshift()   
+   * entries()     * toString()        *concat()     	  * valueOf()        * join()         * filter()    
+   * fill()        * every()        
+
+ * find()     :- find()  method returns the value of the first element in an array that pass a test
+ * filter()   :- filter() method creates an array filled with all array elements that pass a test
+ * toString() :- toString() method converts an array into String and returns the result
+ * valueOf()  :- valueOf() method returns the array
+ 		 no uses of this function
+ *fill()      :- fill() methos fills all the elements in an array with a statis value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+
+
+
+

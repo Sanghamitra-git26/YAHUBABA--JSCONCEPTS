@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUNCTION WITH RETURN VALUE</title>
+</head>
+
+<body>
+
+    <script>
+        function fullname(fname, lname) {
+            var a = fname + + " " + lname;
+            return a;
+        }
+        var fn = fullname("neelam" + "mohanty");
+        document.write(fn);
+
+        function sum(a, b, c) {
+            var add = a + b + c;
+            var per = (a + b + c) / 300 * 100;
+            return add;
+            return per; //unreachable statement
+        }
+        var calculate = sum(1, 2, 3);
+        var cal = sum(1, 2, 3);
+        document.write(calculate);
+    </script>
+
+</body>
+
+</html>

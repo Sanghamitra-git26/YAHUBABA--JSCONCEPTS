@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS IN JS</title>
+</head>
+<body>
+     <!-- CLICK EVENTS -->
+    <button onclick="mousehover1()">Mouse Hover</button>
+    <button ondblclick="mousedblclick()">Mouse doubleclick</button>
+    <button oncontextmenu="oncontextmenu1()">Mouse rightclick</button>
+    <br>
+<!--  MOUSE EVENTS -->
+<p onmouseenter="mouseenter()">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, ipsa!</p>
+
+<p onmouseenter="mouseout()">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, ipsa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, non.
+</p>
+
+<p onmousedown="mousedown()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus animi ullam rem voluptatem maiores error at? Optio eligendi quasi earum facilis id similique adipisci consequuntur, neque aut aliquid, repellat nostrum.</p>
+<p onmouseup="mouseup()">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, molestiae laborum. Ipsam adipisci praesentium velit.</p>
+
+<!-- KEY EVENTS -->
+<button onkeypress="keypress()"> KEY PRESS</button>
+<button onkeyup="keyup()"> KEY UP</button> 
+<br>
+    <script>
+    //   CLICK EVENTS
+     function mousehover1(){
+        alert("hi Mouse hover");
+     }
+     function mousedblclick(){
+        document.write("Hello Double click");
+     }
+     function oncontextmenu1(){
+        alert("Yes , it is right click");
+        document.write("Hello right click");
+     }
+
+//    MOUSE EVENTS
+function mouseenter(){
+    console.log("u r on the context");
+}
+function mouseout(){
+    console.log("u r out from the context");
+}
+function mousedown(){
+    console.log("ur contaxt is down from the mouse");
+}
+function mouseup(){
+    console.log("ur contaxt is up from the mouse");
+}
+
+//KEY EVENTS
+function keyup(){
+    console.log("key up");
+}
+function keypress(){
+    console.log("key press");
+}
+    </script>
+</body>
+</html>
