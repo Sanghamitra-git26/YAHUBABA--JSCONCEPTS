@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECTS IN JS</title>
+</head>
+
+<body>
+    <script>
+        let a = {
+            firstName: "rahul",
+            lastName: "gandhi",
+            age: 16,
+            living:{"city": "delhi",
+            country:"india"},
+            email: "rg@gmail.com",
+            favMovies: [
+                "dhoom", "sholey", "hum tum"
+            ],
+            salary: function(){
+                return 25000;
+            },
+            fullName : function (){
+                return this.firstName+this.lastName;
+            }
+        }
+        // document.write(a);
+        console.log(a);
+            document.write(a.firstName + " ");
+            document.write(a.lastName + "<br>");
+            document.write(a.favMovies + "<br>");
+            document.write(a.favMovies[2]+ "<br>");
+            document.write(a.salary() + "<br>");
+            document.write(a.living.city + "<br>");
+            console.log(a);
+            document.write(a.fullName());
+    </script>
+</body>
+
+</html>

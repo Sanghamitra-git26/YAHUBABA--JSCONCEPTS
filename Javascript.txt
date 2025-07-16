@@ -299,9 +299,53 @@ JAVASCRIPT ARRAY METHODS
  *fill()      :- fill() methos fills all the elements in an array with a statis value
 
 
+OBJECT
+------
+It carries hectrogenious values icluding arrays and functions
+ EX :-let a = {
+            firstName: "rahul",
+            lastName: "gandhi",
+            age: 16,
+            living:{"city": "delhi",
+            country:"india"},
+            email: "rg@gmail.com",
+            favMovies: [
+                "dhoom", "sholey", "hum tum"
+            ],
+            salary: function(){
+                return 25000;
+            },
+            fullName : function (){
+                return this.firstName+this.lastName;
+            }
+        }
+
+ANOTHER OBJECT CREATION METHOD
+------------------------------
+       var a  = new Object();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 

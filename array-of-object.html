@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARRAY OF OBJECT</title>
+</head>
+
+<body>
+    <script>
+        let student = [
+            { Name: "Ram", Age: 15 },
+            { Name: "Thlasi", Age: 25 },
+            { Name: "Neelam", Age: 29 },
+            { Name: "Pavan", Age: 22 }
+        ];
+        // document.write(student);
+        console.log(student);
+        console.log(student[2]);
+
+        for (let a = 0; a <= student.length - 1; a++) {
+            document.write(a);
+            // document.write(student[a] + "<br>"); 
+            document.write(student[a].Name + " " + "<br>");
+            document.write("<br>");
+        }
+
+
+        for(let b = 0; b<= student.length -1; b++){
+        document.write(student[b].Age + " " + "<br>");
+
+      }
+    </script>
+</body>
+
+</html>
